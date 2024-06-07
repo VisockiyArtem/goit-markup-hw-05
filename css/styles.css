@@ -739,6 +739,10 @@ img {
     resize: none;
 }
 
+.modal-text:focus {
+    border-color: #4D5AE5;
+}
+
 .modal-btn {
     display: block;
     margin: 0 auto;
@@ -752,6 +756,8 @@ img {
     display: flex;
     align-items: center;
 }
+
+
 
 .model-check-text span {
     width: 16px;
