@@ -711,6 +711,10 @@ img {
     margin-bottom: 8px;
 }
 
+.modal-filed {
+    margin-bottom: 8px;
+}
+
 .model-input::placeholder {
     color: rgba(46, 47, 66, 0.4);
 }
