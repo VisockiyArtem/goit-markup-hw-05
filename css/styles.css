@@ -620,6 +620,13 @@ img {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    visibility :250ms cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+    transform:250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 72px 24px 24px 24px;
 }
 
 .is-open {
@@ -654,16 +661,20 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color:250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .model-close:hover,
 .model-close:focus {
     background-color: #404BBF;
     border: none;
+    fill: #ffffff;
 }
 
 
 .model-close-icon {
+    fill:250ms cubic-bezier(0.4, 0, 0.2, 1);
    
 }
 
@@ -674,7 +685,7 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 }
 
 .model-input {
@@ -696,8 +707,8 @@ img {
 
 .bodal-filed {
     fill:#2E2F42;
-    margin-bottom: 8px;
     position: absolute;
+    margin-bottom: 8px;
 }
 
 .model-input::placeholder {
