@@ -850,7 +850,13 @@ img {
     align-items: center;
 }
 
+.input:checked {
+    border: none;
+}
 
+input:checked+span svg {
+    fill: var(#F4F4FD);
+}
 
 .model-check-text span {
     width: 16px;
@@ -871,6 +877,10 @@ img {
 .checkbox-hiden {
     margin-bottom: 24px;
 }
+
+.form-link {
+    color: var(#4d5ae5);
+    }
 
 .modal-check {
 
