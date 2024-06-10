@@ -699,6 +699,7 @@ img {
         0px 1px 3px rgba(0, 0, 0, 0.12),
         0px 2px 1px rgba(0, 0, 0, 0.2);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 72px 24px 24px 24px;
 }
 
 .model-close {
@@ -730,8 +731,7 @@ img {
 
 
 .model-close-icon {
-    fill:250ms cubic-bezier(0.4, 0, 0.2, 1);
-   
+    fill: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .model-title {
@@ -772,6 +772,7 @@ img {
 
 .modal-filed {
     margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .model-input::placeholder {
@@ -785,7 +786,8 @@ img {
     letter-spacing: 0.04em;
     color: #8e8f99;
     display: block;
-    margin-bottom: 16px
+    margin-bottom: 16px;
+    margin-bottom: 4px;
 }
 
 .modal-icon {
@@ -794,8 +796,8 @@ img {
     left: 16px;
     top: 50%;
     transform: translateY(-50%);
-    fill:250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-bottom: 4px;
+    fill: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modadl-field-wrap {
@@ -875,10 +877,10 @@ img {
 }
 
 .span-class-icon {
-    width: 16px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
     border 250ms cubic-bezier(0.4, 0, 0.2, 1), 
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: inline-flex;
     fill: transparent;
+    width: 16px;
 }
