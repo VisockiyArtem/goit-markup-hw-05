@@ -867,6 +867,7 @@ input:checked+span svg {
     align-items: center;
     justify-content: center;
     fill: #FFFFFF;
+    fill: transparent;
 }
 
 .modal-check:checked + .model-check-text span {
