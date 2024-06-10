@@ -855,7 +855,7 @@ img {
     color: #4D5AE5;
 }
 
-.model-check-text span {
+.model-check-text , .span-class-icon {
     width: 16px;
     height: 16px;
     border-radius: 2px;
