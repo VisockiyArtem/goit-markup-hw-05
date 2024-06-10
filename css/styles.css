@@ -571,8 +571,6 @@ img {
     align-items: baseline;
 }
 
-.item-mesendger {
-}
 
 .logo-fuuter {
     display: inline-block;
@@ -587,9 +585,6 @@ img {
     color: #f4f4fd;
 }
 
-.footer-network {
-   
-}
 
 .footer-social {
     font-weight: 500;
@@ -853,8 +848,11 @@ img {
     border: none;
 }
 
-input:checked+span svg {
-    fill: var(#F4F4FD);
+
+
+.form-link {
+    text-decoration: underline;
+    color: #4D5AE5;
 }
 
 .model-check-text span {
@@ -878,11 +876,10 @@ input:checked+span svg {
     margin-bottom: 24px;
 }
 
-.form-link {
-    color:var(#404BBF)
-}
-.modal-check {
-
+input:checked+label>span {
+    background-color: #404bbf;
+    fill:#F4F4FD;
+    border: none;
 }
 
 .span-class-icon {
