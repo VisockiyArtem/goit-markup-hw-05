@@ -840,7 +840,6 @@ img {
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
-    
     align-items: center;
 }
 
@@ -864,10 +863,13 @@ img {
     justify-content: center;
     border: 1px solid rgba(46, 47, 66, 0.4);
     fill: #FFFFFF;
+    fill: transparent;
 }
 
 .modal-check:checked + .model-check-text span {
     background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;;
 }
 
 .checkbox-hiden {
@@ -880,5 +882,4 @@ img {
         fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
         border: 1px solid rgba(46, 47, 66, 0.4);
         display: inline-flex;
-        fill: transparent;
 }
