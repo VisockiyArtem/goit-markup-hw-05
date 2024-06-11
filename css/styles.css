@@ -762,12 +762,14 @@ img {
     fill:#2E2F42;
     position: absolute;
     padding: 72px 24px 24px 24px;
-    margin-bottom: 16px;
 }
 
 .modal-filed {
-    
     margin-bottom: 8px;
+}
+
+.modal-comment {
+    margin-bottom: 16px;
 }
 
 .model-input::placeholder {
