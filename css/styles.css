@@ -763,6 +763,7 @@ img {
     position: absolute;
     margin-bottom: 8px;
     padding: 72px 24px 24px 24px;
+    margin-bottom: 16px;
 }
 
 .modal-filed {
