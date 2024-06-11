@@ -767,6 +767,7 @@ img {
 
 .modal-filed {
     margin-bottom: 8px;
+    margin-bottom: 16px
 }
 
 .model-input::placeholder {
@@ -796,7 +797,7 @@ img {
 
 .modadl-field-wrap {
    position: relative;
-    margin-bottom: 16px
+    
 }
 
 .modal-text {
