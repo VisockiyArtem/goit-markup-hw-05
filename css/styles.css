@@ -309,11 +309,6 @@ img {
     border-top: none;
 }
 
-.footer-paragraph {
-    width: 264px;
-    height: 112px;
-}
-
 .section-effective {
     font-size: 56px;
     line-height:1.07;
@@ -583,7 +578,9 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    width: 264px;
 }
+
 
 
 .footer-social {
@@ -604,6 +601,10 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:#f4f4fd;
+}
+
+.modal-footer {
+    margin-left: auto;
 }
 
 .modal-foot-paragraf {
@@ -675,7 +676,7 @@ img {
 }
 
 .is-open {
-    opacity: 1;
+    opacity: 0;
         visibility: visible;
         pointer-events: auto;
     }
